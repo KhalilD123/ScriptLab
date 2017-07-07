@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Payment Form</title>
+
+        <link rel="stylesheet" href="libraries/bootstrap.css" />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <script src="app.js"></script>
+    </head>
+    <body>
+
+        <form id="payment-form">
+            <div class="container small-container margin-top-40">
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="overflow:hidden;">
+                        <h3 class="panel-title pull-left margin-top-10">Give Me Your Money</h3>
+                        <img src="img/cs.jpg" class="pull-right" style="width:200px;" />
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="bold">
+                                    First Name
+                                </div>
+
+                                <div class="margin-top-10">
+                                    <input id="firstname" type="text" class="form-control" placeholder="Your First Name" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="bold">
+                                    Last Name
+                                </div>
+
+                                <div class="margin-top-10">
+                                    <input id="lastname" type="text" class="form-control" placeholder="Your Last Name" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row margin-top-20">
+                            <div class="col-sm-12">
+                                <div class="bold">
+                                    Credit Card Number
+                                </div>
+                                <div class="margin-top-10">
+                                    <input id="credit-card" type="tel" class="form-control" placeholder="Enter a Valid Credit Card Number" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row margin-top-20">
+                            <div class="col-sm-7">
+                                <div class="bold">
+                                    Expiration Date
+                                </div>
+                                <div class="margin-top-10">
+                                    <input id="expiration" type="text" class="form-control" placeholder="MM/DD" />
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="bold">
+                                    CV Code
+                                </div>
+                                <div class="margin-top-10">
+                                    <input id="cvc" type="text" class="form-control" placeholder="CVC" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row margin-top-40">
+                            <div class="col-sm-12">
+                                <button id="submit-form" type="submit" class="btn btn-success btn-block">Send Me Your Money</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </body>
+</html>
